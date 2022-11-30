@@ -1,27 +1,27 @@
 /* CSS STRUCTURE TEMPLATE */
-.selector {
+/* .selector { */
     /* POSITIONING */
-    position: absolute, relative, fixed, etc;
+    /* position: absolute, relative, fixed, etc;
     z-index: 10;
     top: 0;
-    right: 0;
+    right: 0; */
     /* DISPLAY & BOX MODEL */
-    display: block, flex, etc;
+    /* display: block, flex, etc;
     overflow: visible, hidden, scroll, etc;
     box-sizing: border-box, etc;
     width: - - -;
     height: - - - ;
     padding: 10px 10px;
     border: 0 solid color;
-    margin: - - - ;
+    margin: - - - ; */
     /* COLOR */
-    background: - - - ;
-    color: - - - ;
+    /* background: - - - ;
+    color: - - - ; */
     /* TEXT */
-    font-family: - - - ;
+    /* font-family: - - - ;
     font-size: - - - ;
     line-height: - - - ;
-    text-align: - - - ;
+    text-align: - - - ; */
     /* OTHER */
-    cursor: - - - ;
-}
+    /* cursor: - - - ; */
+/* } */
