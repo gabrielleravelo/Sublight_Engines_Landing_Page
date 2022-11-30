@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    font-family: 'Roboto', sans-serif;
 }
 .hero-section {
     min-height: 100vh;
@@ -76,17 +76,18 @@ nav ul li a {
 .offers-text img {
     margin-top: 35px;
 }
-.offers h2 {
+.offers h5 {
     font-size: 25px;
     color: white;
 }
-.offers h1 {
+.offers h3 {
     font-size: 45px;
 }
 .row {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .offers-col {
     flex-basis: 35%;
@@ -97,7 +98,27 @@ nav ul li a {
 }
 
 .news {
-    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.news-col {
+    flex-basis: 50%;
+    margin-bottom: 5%;
+}
+.news-text {
+    text-align: left;
+    margin-left: 77px;
+}
+.news-text h5 {
+    font-size: 25px;
+}
+.news-text h4 {
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.news-text p {
+    font-size: 20px;
 }
 .products {
     /* height: 853px; */
