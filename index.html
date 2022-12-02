@@ -5,16 +5,195 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <meta name="description" content="">
+    <title>Sublight Engines</title>
+    <meta name="description" content="Sublight Engines elevator cab controls">
     
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="">    
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">   
 </head>
-<body>    
+<body>
     <!-- MAIN CONTENT -->
-
+    <!-- HERO SECTION -->
+    <header class="hero-section">
+        <!-- Navigation bar -->
+        <nav>
+            <a href="index.html"><img src="/images/logo_sublight.svg" alt="logo_sublight"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#products">OUR PRODUCTS</a></li>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Text -->
+        <div class="hero-text color-white align-center">
+            <h2>OUR MISSIONS</h2>
+            <h1>TAKE YOU TO THE TOP</h1>
+            <img src="/images/elevator_button.png" alt="elevator_button">
+        </div>
+    </header>
+    <!-- END HERO SECTION -->
+    
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services align-center color-white">
+        <h5>ONE-STOP FOR YOUR ELEVATOR NEEDS</h5>
+        <h3>ONE STEP CLOSER TO THE SUCCESS</h3>
+        <img class="separator" src="/images/wht_separator.png" alt="wht_separator">
+        <!-- Icons of the services -->
+        <div class="row">
+            <div class="row-col">
+                <img class="icon" src="/images/design.svg" alt="design">
+                <h5>WE DESIGN</h5>
+            </div>
+            <div class="row-col">
+                <img class="icon" src="/images/build.svg" alt="build">
+                <h5>WE BUILD</h5>
+            </div>
+            <div class="row-col">
+                <img class="icon" src="/images/maintenance.svg" alt="maintenance">
+                <h5>WE MAINTAIN</h5>
+            </div>
+        </div>
+    </section>
+    <!-- END SERVICES SECTION -->
+    
+    <!-- ABOUT US SECTION -->
+    <section id="aboutus" class="aboutus">
+        <div class="flex-aboutus">
+            <div class="row-aboutus">
+                <h5>2022 SECUREBOARDS SERIES</h5>
+                <h4>THE PERFECTION IN SECURITY</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vulputate diam placerat a et pulvinar sapien orci mauris platea. 
+                    Consectetur non adipiscing duis quis leo integer adipiscing elit. 
+                    Felis, cursus aenean at egestas mauris. Senectus pharetra volutpat ligula ac et. 
+                    Morbi amet dignissim ipsum, in accumsan. Rhoncus in erat consectetur mi consectetur. 
+                    At faucibus pellentesque et aliquet mauris. Senectus facilisi at elementum lectus non egestas. 
+                    In elementum cum suspendisse quam. Congue sagittis fermentum mauris fermentum ut lectus parturient faucibus id.</p>
+            </div>
+            <div class="row-aboutus">
+                <img src="/images/bkg_2.png" alt="bkg_2">
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT US SECTION -->
+    
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="products align-center color-white">
+        <h5>NEED MORE FOR YOUR FLEET OF ELEVATORS</h5>
+        <h3>ALL OUR PRODUCTS ARE MADE <br>WITH HEART AND SOUL</h3>
+        <img class="separator" src="/images/blk_separator.png" alt="black_separator">
+        <!-- The 5 products -->
+        <div class="row products-row align-center color-gray">
+            <div class="row-col">
+                <div class="content">
+                    <img src="/images/safety.png" alt="safety" style="width:100%">
+                    <div class="products-text">
+                        <h6>SAFETY</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-col">
+                <div class="content">
+                    <img src="/images/cab.png" alt="cab" style="width:100%">
+                    <div class="products-text">
+                        <h6>CAB</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-col">
+                <div class="content">
+                    <img src="/images/door.png" alt="door" style="width:100%">
+                    <div class="products-text">
+                        <h6>DOOR</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-col">
+                <div class="content">
+                    <img src="/images/mechanics.png" alt="mechanics" style="width:100%">
+                    <div class="products-text">
+                        <h6>MECHANICS</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row-col">
+                <div class="content">
+                    <img src="/images/hatch.png" alt="hatch" style="width:100%">
+                    <div class="products-text">
+                        <h6>HOISTWAY/HATCH</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="download-btn">DOWNLOAD OUR CATALOG</button>
+    </section>
+    <!--END PRODUCTS SECTION -->
+    
+    <!-- CONTACT FORM  SECTION -->
+    <section id="contact" class="contact">
+        <div class="align-center">
+            <h5>STAY IN TOUCH WITH OUR CUSTOMER SERVICE</h5>
+            <h3>FEEL FREE TO CONTACT US <br> FOR ANY QUESTIONS</h3>
+            <img class="separator" src="/images/blk_separator.png" alt="black_separator">
+        </div>
+        <!-- Contact us -->
+        <form action="" method="post" onsubmit="return confirm ('Are you sure to submit?')">
+            <div class="contactform">
+                <label for="fname">NAME*</label>
+                <input required type="text" id="fname" class="form-control" name="fullname" placeholder="Enter your full name">
+            
+                <label for="email">EMAIL ADDRESS*</label>
+                <input required type="email" id="email" class="form-control" name="email" placeholder="yourname@company.com">
+        
+                <div class="flexform">
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" class="form-control" name="phone" placeholder="0(000)000-0000" pattern="[0-9]{1}[([0-9]{3})][0-9]{3}-[0-9]{4}">
+                    </div>
+                    <div>
+                        <label for="language">PREFERRED LANGUAGE</label>
+                        <select id="language" name="language" class="form-control">
+                            <option value="">Select</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="SUBMIT">
+            </div> 
+        </form>
+    </section>
     <!-- FOOTER -->
+    <section class="footer">
+        <div class="story">
+            <h3>With your trust since 1943.</h3>
+            <img src="/images/signature.svg" alt="logo_signature">
+        </div>
+        <div class="office">
+            <div class="usoffice">
+                <h6>UNITED STATES OFFICE</h6>
+                <p>456 HARLEM BOULEVARD
+                    <br>SARATOGA SPRINGS, NY, USA</p>
+                <p>1 999 543-4567</p>
+            </div>
+            <div class="caoffice">
+                <h6>CANADA'S OFFICE</h6>
+                <p>23895 BRADSHAW BOULEVARD
+                    <br>KINGSTON, ONT, CA</p>
+                <p>1 999 543-4567</p>
+            </div>
+        </div>
+        <p>All rights reserved to Codeboxx Solutions ©, 2022.</p>
+    </section>
     
     <!-- SCRIPTS -->
     <script src="" async defer></script>
