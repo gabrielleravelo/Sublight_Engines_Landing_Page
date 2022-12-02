@@ -1,4 +1,4 @@
-# Sublight_Engines
+# Sublight Engines Landing Page
 
 This week, the project consists of creating a website with HTML and CSS following a predefined template.
 
