@@ -29,14 +29,12 @@ nav img {
 .nav-links {
     flex: 1;
     text-align: right;
-    
 }
 .nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-    
 }
 .nav-links ul li a {
     color: #FFFFFF;
@@ -106,12 +104,9 @@ p {
     justify-content: space-around;
     align-items: center;
 }
-
 .row-col {
-    /* flex-basis: 35%; */
     margin-bottom: 100px;
 }
-
 .aboutus {
     width: 100%;
     padding-top: 80px;
@@ -155,11 +150,6 @@ p {
 .products .separator {
     margin-bottom: 77px;
 }
-/* .column {
-    float: left;
-    width: 33.3%;
-    padding: 0 8px;
-} */
 .content {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
