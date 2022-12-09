@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <!-- MAIN CONTENT -->
@@ -21,14 +24,21 @@
         <!-- Navigation bar -->
         <nav>
             <a href="index.html"><img src="./images/logo_sublight.svg" alt="logo_sublight"></a>
-            <div class="nav-links">
-                <ul>
+            <div class="nav-links" id="navLinks">
+                
+                <ul class="menu" id="menuItems">
                     <li><a href="#services">SERVICES</a></li>
                     <li><a href="#products">OUR PRODUCTS</a></li>
                     <li><a href="#aboutus">ABOUT US</a></li>
                     <li><a href="#contact">CONTACT US</a></li>
                 </ul>
             </div>
+            
+            <button class="hamburger" id="hamBurger">
+                <!-- <i id="iconClose" class="closeIcon fa fa-times"></i> -->
+                <i id="iconMenu" class="menuIcon fa fa-bars"></i>
+            </button>
+            
         </nav>
         <!-- Text -->
         <div class="hero-text color-white align-center">
@@ -93,96 +103,49 @@
             <div class="row-col">
                 <div class="content">
                     <img src="./images/safety.png" alt="safety" style="width:100%">
-                    <!-- <div class="products-text"> -->
+                    <div class="products-text">
                         <h6>SAFETY</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    <!-- </div> -->
+                    </div>
                 </div>
             </div>
             <div class="row-col">
-                <div class="content products-text">
+                <div class="content">
                     <img src="./images/cab.png" alt="cab" style="width:100%">
-                    <!-- <div class="products-text"> -->
+                    <div class="products-text">
                         <h6>CAB</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    <!-- </div> -->
+                    </div>
                 </div>
             </div>
             <div class="row-col">
-                <div class="content products-text">
+                <div class="content">
                     <img src="./images/door.png" alt="door" style="width:100%">
-                    <!-- <div class="products-text"> -->
+                    <div class="products-text">
                         <h6>DOOR</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    <!-- </div> -->
+                    </div>
                 </div>
             </div>
             <div class="row-col">
                 <div class="content">
                     <img src="./images/mechanics.png" alt="mechanics" style="width:100%">
-                    <!-- <div class="products-text"> -->
+                    <div class="products-text">
                         <h6>MECHANICS</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    <!-- </div> -->
+                    </div>
                 </div>
             </div>
             <div class="row-col">
                 <div class="content">
                     <img src="./images/hatch.png" alt="hatch" style="width:100%">
-                    <!-- <div class="products-text"> -->
+                    <div class="products-text">
                         <h6>HOISTWAY/HATCH</h6>
                         <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    <!-- </div> -->
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="row products-row align-center color-gray">
-            <div class="row-col">
-                <div class="content">
-                    <img src="./images/safety.png" alt="safety" style="width:100%">
-                    <div class="products-text">
-                        <h6>SAFETY</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row-col">
-                <div class="content">
-                    <img src="./images/cab.png" alt="cab" style="width:100%">
-                    <div class="products-text">
-                        <h6>CAB</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row-col">
-                <div class="content">
-                    <img src="./images/door.png" alt="door" style="width:100%">
-                    <div class="products-text">
-                        <h6>DOOR</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row-col">
-                <div class="content">
-                    <img src="./images/mechanics.png" alt="mechanics" style="width:100%">
-                    <div class="products-text">
-                        <h6>MECHANICS</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row-col">
-                <div class="content">
-                    <img src="./images/hatch.png" alt="hatch" style="width:100%">
-                    <div class="products-text">
-                        <h6>HOISTWAY/HATCH</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <button class="download-btn">DOWNLOAD OUR CATALOG</button>
     </section>
     <!--END PRODUCTS SECTION -->
@@ -225,24 +188,29 @@
             <h3>With your trust since 1943.</h3>
             <img src="./images/signature.svg" alt="logo_signature">
         </div>
-        <div class="office">
-            <div class="usoffice">
-                <h6>UNITED STATES OFFICE</h6>
-                <p>456 HARLEM BOULEVARD
-                    <br>SARATOGA SPRINGS, NY, USA</p>
-                <p>1 999 543-4567</p>
+        <div class="address">
+            <div class="office">
+                <div class="usoffice">
+                    <h6>UNITED STATES OFFICE</h6>
+                    <p>456 HARLEM BOULEVARD
+                        <br>SARATOGA SPRINGS, NY, USA</p>
+                    <p>1 999 543-4567</p>
+                </div>
+                <div class="caoffice">
+                    <h6>CANADA'S OFFICE</h6>
+                    <p>23895 BRADSHAW BOULEVARD
+                        <br>KINGSTON, ONT, CA</p>
+                    <p>1 999 543-4567</p>
+                </div>
             </div>
-            <div class="caoffice">
-                <h6>CANADA'S OFFICE</h6>
-                <p>23895 BRADSHAW BOULEVARD
-                    <br>KINGSTON, ONT, CA</p>
-                <p>1 999 543-4567</p>
-            </div>
+            <p>All rights reserved to Codeboxx Solutions ©, 2022.</p>
         </div>
-        <p>All rights reserved to Codeboxx Solutions ©, 2022.</p>
+        <div class="footer-btn">
+            <button class="download-footer">DOWNLOAD OUR CATALOG</button> 
+        </div>
     </section>
     
     <!-- SCRIPTS -->
-    <script src="" async defer></script>
+    <script src="/js/main.js" async defer></script>
 </body>
 </html>
